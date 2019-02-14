@@ -16,6 +16,8 @@ response = requests.get(request_url)
 
 parsed_response = json.loads(response.text)
 
+# the json.loads step changes datatype from string to dictionary
+
 # print(type(parsed_response))
 # print(parsed_response)
 
